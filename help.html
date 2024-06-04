@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+      $(function () {
+        $("#accordion").accordion();
+      });
+    </script>
+        <link rel="stylesheet" href="design.css">
+
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="navbar">
+                <a href="index.html"><img src="pics/logo.png" alt=""></a>
+                <div class="dropdown">
+                    <button class="dropbtn">All Tools
+                        <i class="down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a id="a" href="png to jpg.html">PNG to JPG Converter</a>
+                        <a id="a"  href="jpg to png.html">JPG to PNG Converter</a>
+                        <a id="a" href="bmi.html">BMI Calculator</a>
+                        <a id="a" href="simple calculator.html">Simple Calculator</a>
+                        <a id="a" href="wordCounter.html">Word Counter</a>
+                    </div>
+                </div>
+                <div id="last">
+                    <a id="a" href="help.html">Help</a>
+                    <a id="a" href="contact.html">Contact</a>
+                    <div id="signin"><a href="signIn.html">Sign Up</a></div>
+                </div>
+            </div>            
+        </nav>
+        <div class="head">
+            <header>
+              <h1>ToolifyHub Help Desk</h1>
+              <p>Here you can find answer to the most common questions.</p>
+            </header>
+          </div>
+        
+          <div id="accordion">
+            <button class="accordion">
+              <h3>Why should you convert PNG to JPG?</h3>
+            </button>
+            <div id="FAQ">
+              <p>
+                If you have a PNG file, there will be some things you can’t do with it. For example, you cannot have it
+                professionally printed. Since PNG files do not contain CMYK color information, a professional printing company
+                won’t accept them.
+                Additionally, PNG files contain transparency spaces. This allows for pixels within the image to be completely
+                empty. If you try to print a PNG or upload it to certain places on the web, those empty spaces could be filled
+                with black or white pixels, which would make the image look much different than you would expect.
+                This is why converting a PNG to JPG could be very useful. JPG files don’t support transparency, so you’ll know
+                exactly what an upload will look like before you upload it. Also, JPGs support CMYK colors, so you can print
+                them with high accuracy.
+              </p>
+            </div>
+            <button class="accordion">
+              <h3>Is it safe to convert JPGs to PNGs?</h3>
+            </button>
+            <div id="FAQ">
+              <p>
+                It is totally safe to use our tool to convert your files. Your original file remains untouched on your phone,
+                tablet, or computer, so you can always go back to the original if the converted file doesn’t work for you.
+        
+                Also, our server deletes all uploads and conversions after one hour. This ensures your sensitive information
+                stays safe. You never need to worry about your files staying on our server for more than one hour!
+              </p>
+            </div>
+            <button class="accordion">
+              <h3>How is BMI calculated and Why is BMI used?</h3>
+            </button>
+            <div id="FAQ">
+              <p>
+                BMI is calculated by dividing a person's weight in kilograms by the square of their height in meters (BMI =
+                weight (kg) / height (m^2)). <br>
+                BMI is used as a quick and simple way to estimate a person's body fat and assess their overall health. It's
+                often used by healthcare professionals as a screening tool.
+              </p>
+        
+            </div>
+            <button class="accordion">
+              <h3>How do I use a simple calculator?</h3>
+            </button>
+            <div id="FAQ">
+              <p>
+                To use a simple calculator, you enter numbers and perform operations by pressing the appropriate buttons. For
+                example, to add two numbers, you enter the first number, press the addition (+) button, enter the second number,
+                and then press the equals (=) button to see the result
+                <br>
+                The basic functions of a simple calculator usually include addition, subtraction, multiplication, and division.
+                Some calculators may also have square root and percentage functions.
+              </p>
+            </div>
+            <button class="accordion">
+              <h3>Why would I use a word counter?</h3>
+            </button>
+            <div id="FAQ">
+              <p>
+                Word counters are useful for several reasons, including:
+              </p>
+              <ul>
+                <li>Meeting word count requirements for essays, articles, or reports.</li>
+                <li>Tracking progress when writing or editing.</li>
+                <li>Checking the length of text for social media posts or character-limited platforms.</li>
+              </ul>
+        
+            </div>
+          </div>
+          </div>
+          <footer>
+            <div id="footer1">
+                <div id="side1">
+                    <div id="image"> <a href="index.html"><img src="pics/logo.png" alt=""></a></div>
+                 <p>  Streamline your digital experience with ToolifyHub . Our tools make embracing minimalism and modernity online effortless. Craft your unique digital space with ease.</p>
+                </div>
+                <div id="side2">
+                    <h3>Company</h3>
+                    <a href="index.html">Home </a>
+                    <a href="help.html">Help</a>
+                    <a href="contact.html">Contact Us</a>          
+                </div>
+                <div id="side3">
+                    <h3>Tools</h3>
+                    <a href="png to jpg.html">PNG to JPG Converter</a>
+                    <a href="jpg to png.html">JPG to PNG Converter</a>
+                    <a href="bmi.html">BMI Calculator</a>
+                    <a href="simple calculator.html">Simple Calculator</a>
+                    <a href="wordCounter.html">Word Counter</a>
+                </div>
+                <div id="side4">
+                    <h3>Contact Us</h3>
+                    <div id="icons">
+                        <img id="icon" src="pics/4.png" alt=""> 
+                        <img id="icon" src="pics/5.png" alt="">
+                        <img id="icon" src="pics/6.png" alt="">
+                    </div>
+                    <div class="links">
+                        <a href="#">www.ToolifyHub.com</a><br>
+                        <a href="#">www.ToolifyHub.com</a> <br>            
+                        <a href="index.html">www.ToolifyHub.com</a>
+                    </div>
+                 
+                </div>
+            </div>
+           </footer>
+    </div>
+</body>
+</html>
